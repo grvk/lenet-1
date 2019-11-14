@@ -10,9 +10,9 @@ The main purpose of this neural network is recognize and classify written digits
 
 ### Disclaimer
 
-I wrote this code solely for educational purposes. Prior to implementing it, I have learned different regularization techniques, backpropagation, layer types, optimization modes etc., but all of them were either too theoretical or implemented via some custom framework. 
+I wrote this code solely for educational purposes. Prior to implementing it, I have learned different regularization techniques, backpropagation, layer types, optimization modes etc., but all of them were either too theoretical or implemented via some custom framework.
 
-After undersatnding how to inplement all these basics from scratch, I wanted to go through the whole process of:
+After understanding how to implement all these basics from scratch, I wanted to go through the whole process of:
 - Reading a white paper
 - Writing a Python code on a recognized framework (i.e. on PyTorch)
 - Training the model (analyzing how to deal with overfitting, hyperparameter tuning etc.)
@@ -25,12 +25,12 @@ LeNet-1 seems to be a perfect choice for that because:
 - It can be trained on CPU (takes about 1-4 hours depending on the machine)
 
 # This implementation exactly follows the one described in the original paper
-It means that it doesn't use ReLU, normalization techniques, or any optimization algorithms that were proposed later. It uses a classic Stochastic Gradient Descent (without a momentum). It made the implementaton a bit slower/dumber than it could've been, but also (hopefully) easier to understand.
+It means that it doesn't use ReLU, normalization techniques, or any optimization algorithms that were proposed later. It uses a classic Stochastic Gradient Descent (without a momentum). It made the implementation a bit slower/dumber than it could've been, but also (hopefully) easier to understand.
 
 **This implementation also contains helper code and training output obtained during hyperparameter tuning.** This shows the overall thinking process rather than just a ready solution. If you are interested to see just the results, scroll to the bottom of the notebook.
 
 Last disclaimer: **By no means it's the cleanest/best solution. The code could be refactored (slightly restructured, with extra fail-checks, enhanced documentation), but this was not the purpose of this endeavor. The main point was to go through actually get started with:**
-- PyTorch, Python 3, NumPy, MatPlotLib, jupyter, CNN model training and imnplementation
+- PyTorch, Python 3, NumPy, MatPlotLib, jupyter, CNN model training and implementation
 
 # Installation
 
@@ -48,5 +48,3 @@ Train loss vs Validation loss chart
 
 ### License
 MIT
-
-
